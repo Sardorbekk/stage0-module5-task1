@@ -9,7 +9,7 @@ import com.epam.mjc.stage0.utils.Complexity;
  * Complexity.O_LOG_N       -> O(log N)
  * Complexity.O_N_2         -> O(log N^2)
  * Complexity.O_FACTORIAL_N -> O(!N)
- * Complexity.O_2_N         -> O(2 * N)
+ * Comple xity.O_2_N         -> O(2 * N)
  * Complexity.O_N_LOG_N     -> O(N * log N)
  * Complexity.O_1           -> O(1)
  * Complexity.O_N           -> O(N)
@@ -21,26 +21,29 @@ public class AlgorithmComplexity {
      */
     public Complexity badLinerSearch() {
 
+
+ return Complexity.O_N;
+
     }
 
     /**
      * Return the complexity of accessing an array element by index.
      */
     public Complexity arrayIndexItemAccess() {
-
+      return Complexity.O_1;
     }
 
     /**
      * Return the complexity of a binary search.
      */
     public Complexity binarySorting() {
-
+      return Complexity.O_LOG_N;
     }
 
     /**
      * Return the complexity of the twoCycleSorting algorithm.
      */
     public Complexity twoCycleSorting() {
-
+       return Complexity.O_N_2;
     }
 }
